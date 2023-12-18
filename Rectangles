@@ -1,0 +1,12 @@
+a = int(input("first side: "))
+b = int(input("second side: "))
+def perimeter(x,y):
+  k = 2(x+y)
+  return k
+def area(x,y):
+  l = x*y
+  return l
+p = perimeter(a,b)
+a = area(a,b)
+print("Perimeter =", p)
+print("Area =", a)
